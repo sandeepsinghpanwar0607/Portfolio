@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Singh Panwar | Software Engineer & Java Fullstack Developer</title>
+
+    <!-- Meta SEO & Open Graph -->
+    <meta name="description"
+        content="Portfolio of Sandeep Singh Panwar - Software Engineer and Java Fullstack Developer experienced in Java, Spring Boot, Hibernate, REST APIs, Microservices, and modern web development.">
+    <meta name="keywords"
+        content="Sandeep Singh Panwar, Java Fullstack Developer, Software Engineer, Spring Boot, Hibernate, REST API, Indore, Java Developer Portfolio">
+    <meta name="author" content="Sandeep Singh Panwar">
+
+    <meta property="og:title" content="Sandeep Singh Panwar | Software Engineer & Java Fullstack Developer">
+    <meta property="og:description"
+        content="Java Full Stack Developer with hands-on experience in building scalable web applications with Java, Spring Boot, and modern web technologies.">
+    <meta property="og:image" content="assets/images/profile-avatar.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Syne & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Glow Blobs Background -->
+    <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+    <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+    <div class="glow-orb glow-orb-3" aria-hidden="true"></div>
+
+    <!-- ============================================ -->
+    <!-- NAVBAR                                       -->
+    <!-- ============================================ -->
+    <header>
+        <nav id="mainNav" class="navbar navbar-expand-lg fixed-top custom-navbar" aria-label="Main Navigation">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-flex align-items-center gap-1" href="#home" id="navBrandLink">
+                    <span class="brand-code-symbol">&lt;</span>
+                    <span class="brand-name" id="navBrandName">Sandeep</span>
+                    <span class="brand-dot">.</span>
+                    <span class="brand-code-symbol">/&gt;</span>
+                </a>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggler-icon-bar"></span>
+                    <span class="toggler-icon-bar"></span>
+                    <span class="toggler-icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-cta-wrapper d-flex align-items-center gap-3">
+                        <a href="#contact" class="btn btn-crimson-glow nav-btn" id="navHireMeBtn">
+                            <span>Hire Me</span>
+                            <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION                                 -->
+    <!-- ============================================ -->
+    <main>
+        <section id="home" class="hero-section d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+
+                    <!-- Left Hero Content -->
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <div class="hero-badge mb-3 d-inline-flex align-items-center gap-2">
+                            <span class="pulse-status-dot"></span>
+                            <span class="hero-salutation">Hello, I'm</span>
+                        </div>
+
+                        <h1 class="hero-title fw-bold mb-2">
+                            <span id="heroName">Sandeep Singh Panwar</span>
+                        </h1>
+
+                        <h2 class="hero-subtitle mb-4">
+                            <span class="text-gradient-red" id="heroTitle">Software Engineer | Java Fullstack
+                                Developer</span>
+                        </h2>
+
+                        <p class="hero-description lead mb-4" id="heroDescription">
+                            Java Full Stack Developer with hands-on experience in developing scalable web applications
+                            using Java, Spring Boot, Spring MVC, Spring Data JPA, Hibernate and REST APIs.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div
+                            class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start mb-4">
+                            <a href="#projects" class="btn btn-crimson-glow px-4" id="btnViewWork">
+                                <i class="fa-solid fa-briefcase me-2"></i> View My Work
+                            </a>
+                            <a href="assets/resume/Sandeep_Singh_Panwar_Resume.pdf" class="btn btn-glass-outline px-4"
+                                id="btnDownloadResumeHero" download="Sandeep_Singh_Panwar_Resume.pdf">
+                                <i class="fa-solid fa-file-arrow-down me-2"></i> Download Resume
+                            </a>
+                        </div>
+
+                        <!-- Hero Social Links & Location -->
+                        <div
+                            class="hero-meta d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-4">
+                            <div class="social-pills d-flex align-items-center gap-2" id="heroSocialLinks">
+                                <a href="https://github.com/sandeepsinghpanwar0607" target="_blank"
+                                    rel="noopener noreferrer" class="social-circle" aria-label="GitHub Profile"
+                                    id="heroGithubLink">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/sandeep-singh06" target="_blank"
+                                    rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn Profile"
+                                    id="heroLinkedinLink">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="mailto:sandeepsinghpanwar313@gmail.com" class="social-circle"
+                                    aria-label="Send Email" id="heroEmailLink">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                            </div>
+                            <div class="hero-location-pill d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-location-dot text-crimson"></i>
+                                <span id="heroLocation">Indore M.P., India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Hero Profile Image -->
+                    <div class="col-lg-5 text-center">
+                        <div class="hero-avatar-wrapper position-relative mx-auto">
+                            <!-- Glowing background halo -->
+                            <div class="avatar-glow-ring"></div>
+
+                            <!-- Profile Image Container -->
+                            <div class="avatar-frame">
+                                <img src="assets/images/sandeepimage.jpg"
+                                    alt="Sandeep Singh Panwar - Java Full Stack Developer" </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- ABOUT ME SECTION                             -->
+        <!-- ============================================ -->
+        <section id="about" class="section-padding bg-charcoal-dark position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Who I Am</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="row align-items-center gy-4">
+                    <div class="col-lg-6">
+                        <div class="about-card p-4 p-md-5">
+                            <h3 class="h4 text-white mb-3 fw-bold">
+                                Driven Software Engineer &amp; Java Fullstack Developer
+                            </h3>
+                            <p class="text-secondary-light mb-3" id="aboutText">
+                                Java Full Stack Developer with hands-on experience in developing scalable web
+                                applications using Java, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, and REST
+                                APIs. Skilled in building responsive frontend applications using JavaScript, HTML, CSS,
+                                and Bootstrap. Experienced with PostgreSQL and MySQL databases, Spring Security, JWT
+                                authentication, Microservices, Git, GitHub, Docker, and deployment.
+                            </p>
+                            <p class="text-secondary-light mb-4">
+                                <i class="fa-solid fa-graduation-cap text-crimson me-2"></i>
+                                Completed <strong class="text-white">Bachelor of Technology (B.Tech) in Computer Science
+                                    and Engineering</strong>.
+                            </p>
+
+                            <!-- About Quick Actions -->
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="assets/resume/Sandeep_Singh_Panwar_Resume.pdf" class="btn btn-crimson-glow"
+                                    id="btnAboutResume" download="Sandeep_Singh_Panwar_Resume.pdf">
+                                    <i class="fa-solid fa-download me-2"></i> Download Resume
+                                </a>
+                                <button type="button" class="btn btn-glass-outline" data-bs-toggle="modal"
+                                    data-bs-target="#resumeModal" id="btnAboutViewResume">
+                                    <i class="fa-solid fa-eye me-2"></i> View Resume
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Stats & Highlights -->
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrapper">
+                                        <i class="fa-solid fa-laptop-code"></i>
+                                    </div>
+                                    <div class="stat-number">4+</div>
+                                    <div class="stat-label">Full Stack Projects</div>
+                                    <div class="stat-desc">From E-Commerce to Management Apps</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrapper">
+                                        <i class="fa-solid fa-building"></i>
+                                    </div>
+                                    <div class="stat-number">3-Mo</div>
+                                    <div class="stat-label">Industry Internship</div>
+                                    <div class="stat-desc">Softvyom Consulting Services</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrapper">
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                    <div class="stat-number">15+</div>
+                                    <div class="stat-label">Tech &amp; Tools</div>
+                                    <div class="stat-desc">Java, Spring, SQL &amp; Modern Web</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrapper">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <div class="stat-number">B.Tech</div>
+                                    <div class="stat-label">CSE Graduate</div>
+                                    <div class="stat-desc">Malwa Inst. of Science &amp; Tech</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- TECHNICAL SKILLS SECTION                     -->
+        <!-- ============================================ -->
+        <section id="skills" class="section-padding position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">Expertise</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                    <p class="text-secondary-light max-650 mx-auto mt-3">
+                        A categorized breakdown of programming languages, frameworks, databases, and development tools I
+                        work with.
+                    </p>
+                </div>
+
+                <!-- Skills Container (Populated dynamically from script.js, with semantic fallback) -->
+                <div class="row g-4" id="skillsContainer">
+                    <!-- Dynamic skills categories will be rendered here by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SERVICES SECTION ("What I Can Do")           -->
+        <!-- ============================================ -->
+        <section id="services" class="section-padding bg-charcoal-dark position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">Services</span>
+                    <h2 class="section-title">What I Can Do</h2>
+                    <div class="section-line"></div>
+                    <p class="text-secondary-light max-650 mx-auto mt-3">
+                        Specialized software development capabilities tailored for building robust, secure, and
+                        performant digital solutions.
+                    </p>
+                </div>
+
+                <!-- 6 Service Cards -->
+                <div class="row g-4" id="servicesContainer">
+                    <!-- Dynamic services will be rendered here by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- EXPERIENCE SECTION                           -->
+        <!-- ============================================ -->
+        <section id="experience" class="section-padding position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">Career History</span>
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="experience-timeline max-850 mx-auto">
+                    <!-- Timeline Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content glass-card p-4">
+                            <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+                                <h3 class="h5 text-white fw-bold mb-0">Associate Software Engineer Intern</h3>
+                                <span class="badge-timeline">3-Month Internship</span>
+                            </div>
+                            <div class="text-crimson fw-semibold mb-3">
+                                <i class="fa-solid fa-building me-1"></i> Softvyom Consulting Services Pvt. Ltd., Indore
+                            </div>
+                            <ul class="timeline-bullets text-secondary-light mb-3">
+                                <li>Completed a 3-month internship in Software Development.</li>
+                                <li>Worked on Java-based web application development and backend functionalities.</li>
+                                <li>Gained hands-on experience with Java, Spring Boot, Hibernate, MySQL, REST APIs,
+                                    HTML, CSS, JavaScript and Bootstrap.</li>
+                            </ul>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="tech-pill">Java</span>
+                                <span class="tech-pill">Spring Boot</span>
+                                <span class="tech-pill">Hibernate</span>
+                                <span class="tech-pill">MySQL</span>
+                                <span class="tech-pill">REST APIs</span>
+                                <span class="tech-pill">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- PROJECTS SECTION                             -->
+        <!-- ============================================ -->
+        <section id="projects" class="section-padding bg-charcoal-dark position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="section-line"></div>
+                    <p class="text-secondary-light max-650 mx-auto mt-3">
+                        Featured full-stack applications, CRUD systems, and enterprise portals built with Java, Spring
+                        Boot, and modern stacks.
+                    </p>
+                </div>
+
+                <!-- Projects Grid (Populated dynamically from script.js) -->
+                <div class="row g-4" id="projectsContainer">
+                    <!-- Dynamic project cards rendered here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- EDUCATION & CERTIFICATION SECTION            -->
+        <!-- ============================================ -->
+        <section id="education" class="section-padding position-relative">
+            <div class="container">
+                <div class="row gy-5">
+
+                    <!-- Left: Education -->
+                    <div class="col-lg-6">
+                        <div class="section-header mb-4 text-start">
+                            <span class="section-tag">Academic Background</span>
+                            <h2 class="section-title h3">Education</h2>
+                            <div class="section-line ms-0"></div>
+                        </div>
+
+                        <div class="edu-timeline">
+                            <!-- B.Tech -->
+                            <div class="edu-card glass-card p-4 mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="edu-year"><i class="fa-regular fa-calendar me-1"></i> 2022 –
+                                        2026</span>
+                                    <span class="badge-status">Undergraduate</span>
+                                </div>
+                                <h3 class="h5 text-white fw-bold mb-1">B.Tech in Computer Science and Engineering</h3>
+                                <p class="text-crimson mb-2">Malwa Institute of Science and Technology (RGPV), Indore
+                                </p>
+                                <p class="text-secondary-light small mb-0">
+                                    Core coursework: Data Structures &amp; Algorithms, Object Oriented Programming in
+                                    Java, Database Management Systems, Computer Networks, Operating Systems, Web
+                                    Technologies.
+                                </p>
+                            </div>
+
+                            <!-- Class XII -->
+                            <div class="edu-card glass-card p-4 mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="edu-year"><i class="fa-regular fa-calendar me-1"></i> 2022</span>
+                                    <span class="badge-grade">Score: 64.4%</span>
+                                </div>
+                                <h3 class="h5 text-white fw-bold mb-1">Senior Secondary (Class XII)</h3>
+                                <p class="text-crimson mb-0">Madhya Pradesh (MP) Board</p>
+                            </div>
+
+                            <!-- Class X -->
+                            <div class="edu-card glass-card p-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="edu-year"><i class="fa-regular fa-calendar me-1"></i> 2020</span>
+                                    <span class="badge-grade">Score: 85.25%</span>
+                                </div>
+                                <h3 class="h5 text-white fw-bold mb-1">Secondary (Class X)</h3>
+                                <p class="text-crimson mb-0">Madhya Pradesh (MP) Board</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Certification & Training -->
+                    <div class="col-lg-6">
+                        <div class="section-header mb-4 text-start">
+                            <span class="section-tag">Professional Learning</span>
+                            <h2 class="section-title h3">Certification &amp; Training</h2>
+                            <div class="section-line ms-0"></div>
+                        </div>
+
+                        <div class="cert-card glass-card p-4 p-md-5 mb-4 position-relative overflow-hidden">
+                            <div class="cert-badge-glow"></div>
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="cert-icon-box">
+                                    <i class="fa-solid fa-certificate"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h5 text-white fw-bold mb-0">Java Full Stack Training</h3>
+                                    <div class="text-crimson fw-semibold">Infoviaan Technologies, Indore</div>
+                                </div>
+                            </div>
+                            <div class="text-secondary-light small mb-3">
+                                <i class="fa-regular fa-calendar-check me-2"></i><strong>Duration:</strong> July 2025 –
+                                July 2026
+                            </div>
+                            <p class="text-secondary-light mb-3">
+                                Comprehensive professional training covering enterprise Java architecture, full stack
+                                application lifecycle, and database persistence.
+                            </p>
+                            <h4 class="h6 text-white fw-bold mb-2">Key Topics Covered:</h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="tech-pill">Java</span>
+                                <span class="tech-pill">JSP</span>
+                                <span class="tech-pill">Servlets</span>
+                                <span class="tech-pill">Spring Boot</span>
+                                <span class="tech-pill">Hibernate</span>
+                                <span class="tech-pill">MySQL</span>
+                            </div>
+                        </div>
+
+                        <!-- Resume Highlights Box -->
+                        <div class="resume-cta-box glass-card p-4 text-center">
+                            <i class="fa-solid fa-file-lines fa-2x text-crimson mb-2"></i>
+                            <h3 class="h5 text-white fw-bold mb-1">Looking for a verified summary?</h3>
+                            <p class="text-secondary-light small mb-3">
+                                Access my complete resume formatted for recruiters and engineering hiring managers.
+                            </p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a href="assets/resume/Sandeep_Singh_Panwar_Resume.pdf"
+                                    class="btn btn-crimson-glow btn-sm px-3" download="Sandeep_Singh_Panwar_Resume.pdf">
+                                    <i class="fa-solid fa-download me-1"></i> Download PDF
+                                </a>
+                                <button type="button" class="btn btn-glass-outline btn-sm px-3" data-bs-toggle="modal"
+                                    data-bs-target="#resumeModal">
+                                    <i class="fa-solid fa-magnifying-glass me-1"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- CONTACT SECTION                              -->
+        <!-- ============================================ -->
+        <section id="contact" class="section-padding bg-charcoal-dark position-relative">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <div class="section-line"></div>
+                    <p class="text-secondary-light max-650 mx-auto mt-3" id="contactSectionDesc">
+                        Have a project or opportunity in mind? Feel free to get in touch.
+                    </p>
+                </div>
+
+                <div class="row gy-5">
+                    <!-- Left: Contact Information Cards -->
+                    <div class="col-lg-5">
+                        <div class="contact-info-panel h-100 d-flex flex-column justify-content-between">
+                            <div>
+                                <h3 class="h4 text-white fw-bold mb-4">Contact Information</h3>
+
+                                <div class="contact-info-card glass-card p-3 mb-3 d-flex align-items-center gap-3">
+                                    <div class="contact-icon-box">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary-light">Email Address</div>
+                                        <a href="mailto:sandeepsinghpanwar313@gmail.com"
+                                            class="text-white contact-link fw-semibold" id="contactCardEmail">
+                                            sandeepsinghpanwar313@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-card glass-card p-3 mb-3 d-flex align-items-center gap-3">
+                                    <div class="contact-icon-box">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary-light">LinkedIn Profile</div>
+                                        <a href="https://linkedin.com/in/sandeep-singh06" target="_blank"
+                                            rel="noopener noreferrer" class="text-white contact-link fw-semibold"
+                                            id="contactCardLinkedin">
+                                            linkedin.com/in/sandeep-singh06
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-card glass-card p-3 mb-3 d-flex align-items-center gap-3">
+                                    <div class="contact-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary-light">GitHub Repository</div>
+                                        <a href="https://github.com/sandeepsinghpanwar0607" target="_blank"
+                                            rel="noopener noreferrer" class="text-white contact-link fw-semibold"
+                                            id="contactCardGithub">
+                                            github.com/sandeepsinghpanwar0607
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-card glass-card p-3 mb-3 d-flex align-items-center gap-3">
+                                    <div class="contact-icon-box">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary-light">Phone Number</div>
+                                        <a href="tel:+919425819963" class="text-white contact-link fw-semibold">
+                                            +91 9425819963
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-card glass-card p-3 mb-3 d-flex align-items-center gap-3">
+                                    <div class="contact-icon-box">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div>
+                                        <div class="small text-secondary-light">Current Location</div>
+                                        <div class="text-white fw-semibold" id="contactCardLocation">
+                                            Indore M.P., India
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Quick Response Note -->
+                            <div class="contact-status-note p-3 mt-4">
+                                <i class="fa-solid fa-circle-check text-crimson me-2"></i>
+                                <span class="small text-secondary-light">Open to Software Engineer &amp; Full Stack
+                                    roles. Responses within 24 hours.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Contact Form -->
+                    <div class="col-lg-7">
+                        <div class="contact-form-wrapper glass-card p-4 p-md-5">
+                            <h3 class="h4 text-white fw-bold mb-4">Send a Direct Message</h3>
+
+                            <form id="contactForm" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="contactName" class="form-label text-secondary-light small">Your Name
+                                            *</label>
+                                        <input type="text" class="form-control custom-input" id="contactName"
+                                            placeholder="e.g. Rahul Sharma" required>
+                                        <div class="invalid-feedback">Please provide your name.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="contactEmail" class="form-label text-secondary-light small">Your
+                                            Email *</label>
+                                        <input type="email" class="form-control custom-input" id="contactEmail"
+                                            placeholder="e.g. rahul@example.com" required>
+                                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactSubject"
+                                            class="form-label text-secondary-light small">Subject *</label>
+                                        <input type="text" class="form-control custom-input" id="contactSubject"
+                                            placeholder="e.g. Job Opportunity / Project Inquiry" required>
+                                        <div class="invalid-feedback">Please enter a subject.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactMessage"
+                                            class="form-label text-secondary-light small">Message *</label>
+                                        <textarea class="form-control custom-input" id="contactMessage" rows="5"
+                                            placeholder="Write your message here..." required></textarea>
+                                        <div class="invalid-feedback">Please enter your message.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-crimson-glow btn-lg w-100 py-3 mt-2"
+                                            id="btnSendMessage">
+                                            <i class="fa-solid fa-paper-plane me-2"></i> Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- Feedback Alert (Visible upon submission) -->
+                            <div id="formAlertMessage" class="mt-3 d-none" role="alert"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="portfolio-footer py-5">
+        <div class="container">
+            <div class="row align-items-center gy-4 text-center text-md-start">
+                <div class="col-md-6">
+                    <h3 class="footer-brand h4 fw-bold text-white mb-1" id="footerName">Sandeep Singh Panwar</h3>
+                    <p class="footer-role text-crimson mb-0" id="footerTitle">Software Engineer | Java Fullstack
+                        Developer</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-social-links d-inline-flex gap-3 mb-2" id="footerSocials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                            class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                            class="footer-social-icon" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:sandeep.panwar.dev@gmail.com" class="footer-social-icon" aria-label="Email"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="footer-copyright text-secondary-light small">
+                        &copy; 2026 Sandeep Singh Panwar. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <a href="#home" id="backToTopBtn" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ============================================ -->
+    <!-- RESUME VIEW MODAL                            -->
+    <!-- ============================================ -->
+    <div class="modal fade custom-modal" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content glass-modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <div>
+                        <h3 class="modal-title h5 text-white fw-bold" id="resumeModalLabel">
+                            <i class="fa-solid fa-file-lines text-crimson me-2"></i> Resume Preview - Sandeep Singh
+                            Panwar
+                        </h3>
+                        <div class="text-secondary-light small">Software Engineer | Java Fullstack Developer</div>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3 p-md-4">
+                    <div class="resume-frame-wrapper">
+                        <iframe src="assets/resume/Sandeep_Singh_Panwar_Resume.html"
+                            title="Sandeep Singh Panwar Resume Preview" class="resume-iframe"
+                            id="resumeIframe"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pt-0 d-flex justify-content-between">
+                    <span class="small text-secondary-light d-none d-sm-inline">
+                        <i class="fa-solid fa-circle-info text-crimson me-1"></i> Formatted for ATS and recruiter
+                        review.
+                    </span>
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-glass-outline btn-sm px-3"
+                            data-bs-dismiss="modal">Close</button>
+                        <a href="assets/resume/Sandeep_Singh_Panwar_Resume.pdf" class="btn btn-crimson-glow btn-sm px-4"
+                            download="Sandeep_Singh_Panwar_Resume.pdf" id="btnModalDownloadResume">
+                            <i class="fa-solid fa-download me-1"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Script (Contains Centralized Config & Dynamic Render Logic) -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
